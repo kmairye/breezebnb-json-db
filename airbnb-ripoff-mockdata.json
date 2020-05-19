@@ -1,0 +1,250 @@
+{
+    "airbnb": [
+        {
+            "users": [
+                {
+                    "id": 1,
+                    "first_name": "A",
+                    "last_name": "AA",
+                    "profile_image": "",
+                    "phone_no": "111 111 111",
+                    "email": "a@a.a",
+                    "password": "a123",
+                    "date_of_registration": "0000-00-00"
+                },
+                {
+                    "id": 2,
+                    "first_name": "B",
+                    "last_name": "BB",
+                    "profile_image": "",
+                    "phone_no": "222 222 222",
+                    "email": "b@b.b",
+                    "password": "b123",
+                    "date_of_registration": "0000-00-00"
+                },
+                {
+                    "id": 3,
+                    "first_name": "C",
+                    "last_name": "CC",
+                    "profile_image": "",
+                    "phone_no": "333 333 333",
+                    "email": "c@c.c",
+                    "password": "c123",
+                    "date_of_registration": "0000-00-00"
+                },
+                {
+                    "id": 4,
+                    "first_name": "D",
+                    "last_name": "DD",
+                    "profile_image": "",
+                    "phone_no": "444 444 444",
+                    "email": "d@d.d",
+                    "password": "d123",
+                    "date_of_registration": "0000-00-00"
+                },
+                {
+                    "id": 5,
+                    "first_name": "E",
+                    "last_name": "EE",
+                    "profile_image": "",
+                    "phone_no": "555 555 555",
+                    "email": "e@e.e",
+                    "password": "e123",
+                    "date_of_registration": "0000-00-00"
+                }
+            ]
+        },
+        {
+            "houses": [
+                {
+                    "id": 1,
+                    "title": "First title",
+                    "description": "First description",
+                    "street": "Streetlane",
+                    "number": "1",
+                    "letter": "",
+                    "floor": "21",
+                    "direction": "left",
+                    "vacancy": "vacant",
+                    "price_per_night": 200,
+                    "number_of_guests": 2,
+                    "longitude": "00.000000",
+                    "laditude": "00.000000",
+                    "owner": 1
+                },
+                {
+                    "id": 2,
+                    "title": "Second title",
+                    "description": "Second description",
+                    "street": "Lanestreet",
+                    "number": "2",
+                    "letter": "",
+                    "floor": "3",
+                    "direction": "right",
+                    "vacancy": "not vacant",
+                    "price_per_night": 600,
+                    "number_of_guests": 4,
+                    "longitude": "00.000000",
+                    "laditude": "00.000000",
+                    "owner": 2
+                },
+                {
+                    "id": 3,
+                    "title": "Third title",
+                    "description": "Third description",
+                    "street": "Avenue Street",
+                    "number": "294",
+                    "letter": "",
+                    "floor": "",
+                    "direction": "",
+                    "vacancy": "not vacant",
+                    "price_per_night": 300,
+                    "number_of_guests": 2,
+                    "longitude": "00.000000",
+                    "laditude": "00.000000",
+                    "owner": 3
+                },
+                {
+                    "id": 4,
+                    "title": "Fourth title",
+                    "description": "Fourth description",
+                    "street": "Boulevard Lane",
+                    "number": "10001",
+                    "letter": "",
+                    "floor": "",
+                    "direction": "",
+                    "vacancy": "not vacant",
+                    "price_per_night": 300,
+                    "number_of_guests": 2,
+                    "longitude": "00.000000",
+                    "laditude": "00.000000",
+                    "owner": 3
+                }
+            ]
+        },
+        {
+             "housegallery": [
+                 {
+                     "id": 1,
+                     "image": "",
+                     "house": 1
+                 },
+                 {
+                    "id": 2,
+                    "image": "",
+                    "house": 1
+                },
+                 {
+                    "id": 3,
+                    "image": "",
+                    "house": 1
+                },
+                {
+                    "id": 4,
+                    "image": "",
+                    "house": 2
+                },
+                {
+                    "id": 5,
+                    "image": "",
+                    "house": 2
+                },
+                {
+                    "id": 6,
+                    "image": "",
+                    "house": 2
+                },
+                {
+                    "id": 7,
+                    "image": "",
+                    "house": 3
+                }
+             ]
+        },
+        {
+            "housefacilities": [
+                {
+                    "id": 1,
+                    "house": 2,
+                    "facility": 1
+                },
+                {
+                    "id": 2,
+                    "house": 2,
+                    "facility": 2
+                },
+                {
+                    "id": 3,
+                    "house": 2,
+                    "facility": 3
+                },
+                {
+                    "id": 4,
+                    "house": 2,
+                    "facility": 4
+                },
+                {
+                    "id": 5,
+                    "house": 3,
+                    "facility": 1
+                },
+                {
+                    "id": 6,
+                    "house":3,
+                    "facility": 2
+                },
+                {
+                    "id": 3,
+                    "house": 2,
+                    "facility": 3
+                },
+                {
+                    "id": 4,
+                    "house": 3,
+                    "facility": 4
+                },
+            ]
+        },
+        {
+            "facilities": [
+                {
+                    "id": 1,
+                    "name": "kitchen"
+                },
+                {
+                    "id": 2,
+                    "name": "bathroom"
+                },
+                {
+                    "id": 3,
+                    "name": "close to metro"
+                },
+                {
+                    "id": 4,
+                    "name": "close to city center"
+                },
+                {
+                    "id": 5,
+                    "name": "pool"
+                },
+                {
+                    "id": 6,
+                    "name": "close to nature"
+                }
+            ] 
+        },
+        {
+            "bookings": [
+                {
+                    "id": 1,
+                    "user": 1,
+                    "house": 1,
+                    "date_of_reservation": "0000-00-00",
+                    "date_booking_from": "0000-00-00",
+                    "date_booking_to": "0000-00-00",
+                    "status": "ended"
+                }
+            ] 
+        }
+    ]
+}
